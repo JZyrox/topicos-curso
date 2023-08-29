@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  </head>
+  <body>
+    <main>
+      <img src="./multimedia/usuarioo.jpg" alt="user.jpeg" class="pic">
+      <h2>¡Inicia sesión a tu cuenta!</h2>
+    </main>
     <form>
-        <h1>Inicio de sesión</h1>
-        <div class="caja">
-            <label>Usuario</label>
-            <input type="text">
-        </div>
-        <div class="caja">
-            <label>Contraseña</label>
-            <input type="text">
-        </div>
-        <div class="boton">
-            <input type="button" value="Iniciar sesión">
-        </div>
-      </form>
-      <p>Registrarse | Iniciar sesión</p>
-</body>
+      <div class="cajas">
+        <label for="userName">Usuario:</label>
+        <input type="text" id="userName" placeholder="Escribe tu usuario" />
+      </div>
+      <div class="cajas">
+        <label for="pass">Contraseña:</label>
+        <input type="password" id="pass" placeholder="Escribe tu contraseña" />
+      </div>
+      <div class="cajas boton">
+        <button>Acceso</button>
+      </div>
+    </form>
+    <script src="app.js"></script>
+    <p>Iniciar sesión | Registrate</p>
+  </body>
 </html>

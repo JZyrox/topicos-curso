@@ -16,37 +16,61 @@ body {
   margin: 0;
   background-image: linear-gradient(
     to bottom,
-    rgba(254, 254, 254, 0.9),
-    rgba(135, 47, 236, 0.4)
+    rgba(236, 108, 75, 1),
+    rgba(255, 221, 176, 1)
   );
 }
 
-button {
-  padding: 10px;
-  background-color: #333;
-  color: white;
-  border: none;
-  text-transform: uppercase;
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  border: 3px solid #333;
+  padding: 20px;
   border-radius: 12px;
-  cursor: pointer;
-  transition: 0.5s ease-in;
-}
-button:hover {
-  background-color: #a93e3e;
+  background-image: linear-gradient(  
+    to bottom,
+    rgba(129, 201, 250, 1),
+    rgba(20, 101, 187, 1)
+  );
 }
 
-p {
-  font-size: 40px;
+.cajas {
+  display: flex;
+  flex-direction: column;
+  height: 15vh;
+  justify-content: center;
+}
+.cajas label {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
   font-weight: bold;
-  transition: 0.3s ease-out;
+  margin-bottom: 10px;
 }
-form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.cajas input {
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
 }
-.boton{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    justify-content: center;
-    justify-self: center;
+
+.boton {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-content: center;
+  justify-self: center;
+}
+button{
+  padding: 5px 15px;
+    background-color: #e4fff9;
+    color: rgb(0, 0, 0);
+    border-radius: 15px; /* Hace que el botón sea ovalado */
+    cursor: pointer;}
+img{
+  border-radius: 15%;
+  border: 3px solid #000000;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
 }
