@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap');
+
+/* Configuración básica */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(254, 254, 254, 0.9),
+    rgba(135, 47, 236, 0.4)
+  );
+}
+
+button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.5s ease-in;
+}
+button:hover {
+  background-color: #a93e3e;
+}
+
+p {
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s ease-out;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.boton{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-content: center;
+    justify-self: center;
+}

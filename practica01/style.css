@@ -1,0 +1,64 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main {
+    display: grid;
+    grid-template-columns: 0.7fr 2fr; /*dividir en dos columnas */
+    height: 100vh;
+
+}
+
+.caja1 img {
+    border-radius: 100%;
+    border: 4px solid #ffffff;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.columna1 {
+    color: #ffffff;
+    padding: 20px;
+    background-color: #496940;
+}
+.columna2 {
+    color: #ffffff;
+    padding: 20px;
+    background-color: #93842f;
+}
+
+.columna1 h2 {
+    border-bottom: solid #ef2947;
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+.miContacto p{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.miPerfil p {
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.misRedes h2 {
+    margin-top: 1rem;
+}
+
+.miExperiencia h2 {
+    margin-top: 1rem;
+}
+
+.miExperiencia p {
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 0;
+}

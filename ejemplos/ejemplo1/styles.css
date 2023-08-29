@@ -1,0 +1,48 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color:#ebe6ea;
+}
+.main{
+    
+    background-color:#d6ebc1;
+    width: 70%;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    text-align: center;
+}
+#numero_pesos{
+    padding: 6.5px;
+    border: 3px solid #000000;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: left;
+}
+#boton{
+    padding: 10px 20px;
+    background-color: #e4c5c4;
+    color: rgb(0, 0, 0);
+    border: 3px solid #000000;
+    border-radius: 50px; /* Hace que el botón sea ovalado */
+    cursor: pointer;
+    width: 100px; /* Ajusta el ancho para lograr una forma ovalada */
+    height: 40px; /* Ajusta la altura para lograr una forma ovalada */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 4px rgb(0, 0, 0);
+}
+#dolar{
+    background-color: #f8ffb8;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px
+}
