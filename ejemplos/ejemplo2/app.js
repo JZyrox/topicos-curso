@@ -17,9 +17,15 @@ document.addEventListener("DOMContentLoaded", function () {
    
       // Verificar si los campos están vacíos
       if (userNameValue === "" || passValue === "") {
-        alert("No puedes ingresar, completa ambos campos.");
+        const resultDivUser = document.createElement("div")
+        resultDivUser.classList.add("result-user")
+        resultDivUser.textContent = ("Rellena ambos campos.")
+        document.body.appendChild(resultDivUser);
       } else if (passValue.length < 5) {
-        alert("Debes poner al menos 5 caracteres en la contraseña");
+        const resultDivPass = document.createElement("div")
+        resultDivPass.classList.add("result-pass")
+        resultDivPass.textContent = ("Pon al menos 5 o más caracteres.")
+        document.body.appendChild(resultDivPass);
       } else {
         // Crear un elemento para mostrar el resultado en la página
         const resultDiv = document.createElement("div");
