@@ -23,7 +23,7 @@ borrar.addEventListener('click', () => {
   const p = document.querySelectorAll('p');
   
   // Iniciamos un bucle 'for' que itera desde 0 hasta la longitud de 'p'
-  for(let i=0; i > p.length; i++){
+  for(let i=0; i < p.length; i++){
     // Eliminamos el elemento 'p[i]' del documento
     document.body.removeChild(p[i]);
   }
