@@ -1,0 +1,78 @@
+ @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Mooli'
+}
+
+.formulario {
+  display: grid;
+  margin: 3%;
+  background-color: #1d3557;
+  padding: 70px;
+  border-radius: 15px;
+}
+
+.grupo label {
+  padding: 12px;
+  font-weight: bold;
+  width: 100%;
+  font-size: 25px;
+  color: white;
+}
+
+.grupo input {
+  padding: 10px;
+  font-weight: bold;
+  background-color: #e6ede3;
+  border-radius: 15px;
+  border: 4px solid #171b5f;
+  max-width: 100%;
+  width: 100%;  
+}
+
+.grupo{
+  display: grid;
+  background-color: #457b9d;
+  padding: 15px;
+  border-radius: 15px;
+  width: 100%;
+  margin-top: 20px;
+}
+.header-title{
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  background-color: #e63946;
+  color: white;
+}
+body{
+  background-color: #f1faee;
+}
+
+.botonsito{
+ min-width: 15%;
+ height: 100%;
+ padding: 10px 20px;
+ background-color: #e6ede3;
+    color: rgb(0, 0, 0);
+    border: 3px solid #000000;
+    border-radius: 50px;
+    border: 4px solid #457b9d;
+    cursor: pointer;
+  font-size: 100%;
+}
+
+.botonsito:hover{
+  background-color:rgb(193, 193, 193);
+}
+
+.botonDiv{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin: 15px;
+}

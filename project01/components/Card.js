@@ -1,10 +1,10 @@
 // Exportamos una función llamada "Card" que toma tres argumentos: image, title y description.
-export default function Card({ image, title, description }) {
+export default function Card({ image, title, description }) { //Toma datos como argumentos.
     // Creamos un elemento div y le asignamos la clase "card".
     const card = document.createElement('div');
     card.classList = 'card';
   
-      // Si se proporciona una URL de imagen en el objeto "image"...
+      // Si se proporciona una URL de imagen en el objeto "image".. .
     if (image.url) {
       // Creamos un elemento de imagen (img).
       const cardImage = document.createElement('img');

@@ -11,7 +11,7 @@ import { info } from './helper/data-page';
 import { api } from './helper/data-api';
 
 // Importamos la función "Container" desde el archivo "./components/container.js".
-import Container from './components/container';
+import Container from './components/Container';
 
 // Añadimos el componente "Header" al cuerpo del documento HTML, pasando "info" como argumento.
 document.body.appendChild(Header(info));
